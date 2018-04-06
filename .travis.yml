@@ -10,10 +10,5 @@ addons:
     packages:
       - cmake
       - cmake-data
-=======
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-3
+
  
