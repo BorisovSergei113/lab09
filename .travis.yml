@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 language: cpp
 script:
 - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
@@ -10,3 +11,10 @@ addons:
     packages:
       - cmake
       - cmake-data
+=======
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+ - rbx-3
+>>>>>>> 02d18d62d809ee94610e0061cd33cf4a07d7788c
